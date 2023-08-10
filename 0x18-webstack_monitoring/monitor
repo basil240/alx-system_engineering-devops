@@ -1,0 +1,23 @@
+{
+	"name": "",
+	"type": "query alert",
+	"query": "avg(last_5m):avg:system.load.1{*} > 1",
+	"message": "",
+	"tags": [],
+	"options": {
+		"thresholds": {
+			"critical": 1
+		},
+		"notify_audit": false,
+		"require_full_window": false,
+		"notify_no_data": false,
+		"renotify_interval": 0,
+		"include_tags": false,
+		"renotify_statuses": [
+			"alert",
+			"no data",
+			"warn"
+		],
+		"escalation_message": ""
+	}
+}
