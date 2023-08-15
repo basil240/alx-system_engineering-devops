@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+ekpeiikechukwu@ubuntu$ ./0-use_a_private_key
+ubuntu@server01:~$ exit
+Connection to 8.8.8.8 closed.
+ekpeiikechukwu@ubuntu$ 

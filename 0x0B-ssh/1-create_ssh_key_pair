@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+/1-create_ssh_key_pair
+Generating public/private rsa key pair.
+Your identification has been saved in school.
+Your public key has been saved in school.pub.
